@@ -5,6 +5,7 @@ export default class TodoApp {
     this.el = el
     this.store = store
     this.initialized = false
+    console.log('TodoApp created')
   }
 
   run() {
