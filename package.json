@@ -1,0 +1,20 @@
+{
+  "name": "tut-todo",
+  "description": "Vanilla JavaScript Todo",
+  "version": "9.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn dev",
+    "dev": "browser-sync src -w --port 8080"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.7",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-config-prettier": "6.10.1",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-prettier": "3.1.2",
+    "prettier": "2.0.4"
+  }
+}
