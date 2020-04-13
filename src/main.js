@@ -1,14 +1,9 @@
-import TodoStore from './store/TodoStore.js'
-import TodoApp from './components/TodoApp.js'
-import LocalStorageAdapter from './store/LocalStorageAdapter.js'
+import hello from './lib/hello.js'
 
-document.addEventListener('DOMContentLoaded', () => {
-  const storageAdapter = new LocalStorageAdapter('tutTodo')
-
-  const app = new TodoApp({
-    el: document.querySelector('.todo-app'),
-    store: new TodoStore(storageAdapter)
-  })
-
-  app.run()
-})
+window.addEventListener(
+  'DOMContentLoaded',
+  () => {
+    hello()
+  },
+  false
+)
