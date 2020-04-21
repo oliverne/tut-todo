@@ -1318,14 +1318,6 @@ cross-env@^5.1.3:
   dependencies:
     cross-spawn "^6.0.5"
 
-cross-spawn@^4.0.0:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-4.0.2.tgz#7b9247621c23adfdd3856004a823cbe397424d41"
-  integrity sha1-e5JHYhwjrf3ThWAEqCPL45dCTUE=
-  dependencies:
-    lru-cache "^4.0.1"
-    which "^1.2.9"
-
 cross-spawn@^5.0.1:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
@@ -1843,10 +1835,10 @@ eslint-plugin-import@2.20.2:
     read-pkg-up "^2.0.0"
     resolve "^1.12.0"
 
-eslint-plugin-prettier@3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.2.tgz#432e5a667666ab84ce72f945c72f77d996a5c9ba"
-  integrity sha512-GlolCC9y3XZfv3RQfwGew7NnuFDKsfI4lbvRK+PIIo23SFH+LemGs4cKwzAaRa+Mdb+lQO/STaIayno8T5sJJA==
+eslint-plugin-prettier@3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.3.tgz#ae116a0fc0e598fdae48743a4430903de5b4e6ca"
+  integrity sha512-+HG5jmu/dN3ZV3T6eCD7a4BlAySdN7mLIbJYo0z1cFQuI+r2DiTJEFeF68ots93PsnrMxbzIZ2S/ieX+mkrBeQ==
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
@@ -2247,10 +2239,10 @@ find-up@^2.0.0, find-up@^2.1.0:
   dependencies:
     locate-path "^2.0.0"
 
-firebase-tools@^8.0.2:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-8.0.2.tgz#0ae414edbb951ff59c2a2693ce761159b6be7ba8"
-  integrity sha512-rvWCRIqJALhh2TMa/Zt3kJrrywGF+2uJAbBGl0y5hQXSy3x9CTfi7M1P6ohGYNUbYWNYsxhhbjLemMLOc4SrFw==
+firebase-tools@8.1.1:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-8.1.1.tgz#177a51287a68549d6bbea4cfa4900049ad716d45"
+  integrity sha512-2UH1e/TQhMM+y/ZbY5sRFuSTg2nu+HCTN8uPzhr5KQXK+nXIkZqtEgGHwtLdFdfT7tScXMkCGfe/CpQOc8VH0A==
   dependencies:
     "@google-cloud/pubsub" "^1.7.0"
     JSONStream "^1.2.1"
@@ -2263,7 +2255,7 @@ firebase-tools@^8.0.2:
     commander "^4.0.1"
     configstore "^5.0.1"
     cross-env "^5.1.3"
-    cross-spawn "^4.0.0"
+    cross-spawn "^7.0.1"
     csv-streamify "^3.0.4"
     didyoumean "^1.2.1"
     dotenv "^6.1.0"
@@ -4898,7 +4890,7 @@ rimraf@^3.0.0:
   dependencies:
     glob "^7.1.3"
 
-rollup-plugin-sourcemaps@^0.5.0:
+rollup-plugin-sourcemaps@0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/rollup-plugin-sourcemaps/-/rollup-plugin-sourcemaps-0.5.0.tgz#898e8411c9b5b7b524b4d96c3b41d5c43f9da77e"
   integrity sha512-xp2vvRvgnYiXydgf/JFFFgYxrqMaQaOrK/g6yZvgwT9R1TSYjD3HKku1pD7iQNjQHkl5yGpokvJLp7cP/lR+aQ==
@@ -4924,10 +4916,10 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.6.0.tgz#e69d50dc2217af23ab5f6df9a48e45df4ab56df1"
-  integrity sha512-qbvQ9ZbvbhBdtRBZ/A4g+9z3iJQ1rHAtjinn3FiN+j5tfz8xiNyTE1JEEMcFWqlH7+NHadI9ieeqKdp8HwYLnQ==
+rollup@2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.6.1.tgz#8354e67caa7b8bf24c2488d9e2f64da2be62eebe"
+  integrity sha512-1RhFDRJeg027YjBO6+JxmVWkEZY0ASztHhoEUEWxOwkh4mjO58TFD6Uo7T7Y3FbmDpRTfKhM5NVxJyimCn0Elg==
   optionalDependencies:
     fsevents "~2.1.2"
 
@@ -5168,7 +5160,7 @@ shelljs@^0.8.1:
     interpret "^1.0.0"
     rechoir "^0.6.2"
 
-shx@^0.3.2:
+shx@0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/shx/-/shx-0.3.2.tgz#40501ce14eb5e0cbcac7ddbd4b325563aad8c123"
   integrity sha512-aS0mWtW3T2sHAenrSrip2XGv39O9dXIFUqxAEWHEOS1ePtGIBavdPJY1kE2IHl14V/4iCbUiNDPGdyYTtmhSoA==
